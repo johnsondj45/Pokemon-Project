@@ -40,6 +40,10 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.navigation.ui)
     implementation(libs.androidx.navigation.fragment)
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.coroutine.android)
+    implementation(libs.coroutine.core)
 
     testImplementation(libs.junit)
 }
